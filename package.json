@@ -1,0 +1,13 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hola mundo para Cloud Run / Cloud Functions (2nd gen)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "functions-framework --target=helloWorld --port=${PORT:-8080}"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.4.0"
+  }
+}
